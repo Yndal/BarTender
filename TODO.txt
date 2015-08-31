@@ -1,0 +1,22 @@
+
+	
+Missing features
+	When collecting drinks => Tell how many/total that is collected
+	Tilføje del hvor output'et er <mængde> fra ingredients på plads nr. <plads nr>
+	
+	
+	
+Bugs
+	Searching for drinks with several ratings... Doesn't return anything
+	Southern panel disappears when Add ingredient button is clicked... 
+	AddIngredient windows: Auto suggest should be implemented better. Currently it might fail because of some threading problem.
+		https://today.java.net/article/2007/07/17/adding-auto-completion-support-swing-comboboxes
+	
+	
+Version 2.0
+	Wait on loading images until all drink data has been collected => Speed up the time the user has to wait before ordering a drink
+	Configuration: Load, save and delete => notify listeners
+	Try to collect images both as PNG but also as JPEG
+	Locally saved drinks takes up 8.22GB of space...Maybe a bit too much :)
+	Be able to save both user defined but also web collected drinks
+	
